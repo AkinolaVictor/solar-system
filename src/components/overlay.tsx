@@ -1,6 +1,5 @@
 import { delayer, meshes } from '@/utils/exports'
 import React, { useEffect, useRef, useState } from 'react'
-import SelectRange from './selectRange'
 
 interface Props {
     changer: any,
@@ -79,20 +78,20 @@ function Overlay(props: Props) {
 
                 <p className='mt-3 mb-2  '>Environment Light ({values_1}%)</p>
                 <div className='bg-[#354f52] rounded-full py-4 px-3 mb-3'>
-                    <SelectRange 
+                    {/* <SelectRange 
                         values={values_1}
                         setValues={setValues_1}
-                    />
+                    /> */}
                 </div>
 
                 <p className='mt-0 mb-2  '>Pointed Light ({values_2})</p>
                 <div className='bg-[#354f52] rounded-full py-4 px-3 mb-2'>
-                    <SelectRange 
+                    {/* <SelectRange 
                         values={values_2}
                         setValues={setValues_2}
                         min={1}
                         max={1000}
-                    />
+                    /> */}
                 </div>
 
 
