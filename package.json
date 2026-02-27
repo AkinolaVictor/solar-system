@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "push": "git add . && git commit -m `3d_world` && git push 3d_objects master"
+    "push": "git add . && git commit -m `solar-system` && git push solar_system master"
   },
   "dependencies": {
     "gsap": "^3.14.2",
