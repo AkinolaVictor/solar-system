@@ -19,7 +19,7 @@ const earthTexture = textureLoader.load(
 )
 
 const marsTexture = textureLoader.load(
-    "/textures/tex_4.png"
+    "/textures/mars.jpg"
 )
 
 const moonTexture = textureLoader.load(
